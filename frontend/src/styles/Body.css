@@ -4,7 +4,7 @@
 
 .search-container {
     text-align: center;
-    padding: 5rem 1rem; /* Adjust padding as needed */
+    padding: 5rem 1rem; 
     background-color: #ECE9F7;
 }
 
@@ -23,11 +23,11 @@
   
 .icon {
     position: absolute;
-    right: 30.5rem; /* Space from the right edge of the input */
+    right: 30.5rem; 
     top: 26.5%;
     transform: translateY(-50%);
-    color: #666; /* Adjust color as needed */
-    pointer-events: none; /* Ensure the icon doesn’t block input interaction */
+    color: #666;
+    pointer-events: none; 
 }
   
 /* Card */
@@ -59,7 +59,7 @@
     display: block;
     width: calc(100% + 3rem); 
     height: 3px;
-    background-color: #ccc; /* Line color */
+    background-color: #ccc;
     margin-top: 0.75rem;
     margin-left: -1.5rem;
 }
@@ -79,7 +79,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .card-form {
@@ -88,8 +88,8 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   position: relative;
-  width: 600px; /* Adjusted width */
-  max-width: 90%; /* Responsive width */
+  width: 600px; 
+  max-width: 90%; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -116,11 +116,11 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  box-sizing: border-box; 
 }
 
 .card-form textarea {
-  min-height: 100px; /* Adjust height for better usability */
+  min-height: 100px;
 }
 
 .card-form button {
@@ -153,20 +153,20 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: white; /* White background */
-  color: black; /* Black text color */
-  border: 1px solid #ddd; /* Light border for better visibility */
-  border-radius: 50%; /* Rounded button */
-  padding: 5px 10px; /* Adjust padding as needed */
-  font-size: 50px; /* Font size for the close icon */
+  background-color: white; 
+  color: black; 
+  border: 1px solid #ddd; 
+  border-radius: 50%;
+  padding: 5px 10px; 
+  font-size: 50px; 
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition effects */
-  z-index: 1001; /* Ensure it is above other content */
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 1001; 
 }
 
 .card-form-close:hover {
-  background-color: #f0f0f0; /* Slightly darker background on hover */
-  color: #333; /* Darker text color on hover */
+  background-color: #f0f0f0; 
+  color: #333; 
 }
 .alert {
   margin-top: 10px;
@@ -201,10 +201,6 @@
 }
 
 
-
-
-
-/* Centering the form on the screen */
 .account-form-container {
   position: fixed;
   top: 0;
@@ -214,7 +210,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .account-form {
@@ -223,7 +219,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   width: 100%;
-  max-width: 600px; /* Adjust the width of the form */
+  max-width: 600px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -251,7 +247,7 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  box-sizing: border-box;
 }
 
 .account-form button {
@@ -282,20 +278,20 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: white; /* White background */
-  color: black; /* Black text color */
-  border: 1px solid #ddd; /* Light border for better visibility */
-  border-radius: 50%; /* Rounded button */
-  padding: 5px 10px; /* Adjust padding as needed */
-  font-size: 24px; /* Adjust font size */
+  background-color: white;
+  color: black; 
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px 10px; 
+  font-size: 24px; 
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition effects */
-  z-index: 1001; /* Ensure it is above other content */
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 1001; 
 }
 
 .account-form-close:hover {
-  background-color: #f0f0f0; /* Slightly darker background on hover */
-  color: #333; /* Darker text color on hover */
+  background-color: #f0f0f0; 
+  color: #333; 
 }
 
 .alert {

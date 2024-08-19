@@ -19,13 +19,13 @@ const CardForm = ({ cardTitle, onClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Send a POST request to the backend to add the new card
+      
       const response = await axios.post('http://localhost:5000/api/cards', {
         title,
         description,
       });
       console.log('Card added:', response.data);
-      onClose(); // Close the form after submission
+      onClose(); 
     } catch (error) {
       console.error('Error adding card:', error);
     }
@@ -75,7 +75,7 @@ const CardForm = ({ cardTitle, onClose }) => {
             value={title} 
             onChange={(e) => setTitle(e.target.value)} 
             required 
-            readOnly={!!cardTitle} // Prevent editing if the title is predefined
+            readOnly={!!cardTitle} 
           />
         </div>
         <div>

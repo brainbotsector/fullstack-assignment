@@ -1,0 +1,43 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .footer-section {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section p {
+    color: #ccc;
+    margin: 0.3rem 0;
+  }
+  
+  .footer-section a:hover,
+  .footer-section p:hover {
+    color: #ddd;
+  }
+  
+  .footer-copyright {
+    font-size: 0.875rem;
+    color: #aaa;
+  }
+  

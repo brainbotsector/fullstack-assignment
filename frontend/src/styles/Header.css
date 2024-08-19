@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding : 1rem 2rem;
+    background-color: black;
+}
+
+.header-left{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.submit-button{
+    padding: 0.5rem 1rem;
+    background-color: #4b4747;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

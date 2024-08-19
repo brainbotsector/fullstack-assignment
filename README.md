@@ -1,27 +1,13 @@
 # Help Center API Assignment
 
-## Instructions
+This project features a full-stack Help Center application with a user-friendly interface built using React for the frontend and Node.js with Express for the backend, supported by MongoDB as the database.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
+## Features:
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+Help Center Card Management: Users can add, retrieve, and view all branches within the help center. This functionality allows for easy management and organization of various help center cards.
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+Account Management: Under the "Manage Your Account" section, users can create new accounts, update their details, and view their information using their email ID.
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+Data Management: All user and branch data is efficiently stored and managed using MongoDB. Three schema models were designed for handling branches and user data.
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
-
----
-
+This project demonstrates a comprehensive full-stack solution with a focus on creating a user-friendly and efficient help center application.

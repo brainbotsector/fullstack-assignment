@@ -1,33 +1,32 @@
 import React, { useState } from 'react';
 import '../styles/Body.css';
 import CardForm from './CardForm';
-import AccountForm from './AccountForm'; // Import AccountForm
-
+import AccountForm from './AccountForm'; 
 const Body = () => {
-    const [showForm, setShowForm] = useState(false);  // State to toggle the form
-    const [formType, setFormType] = useState(''); // State to determine which form to show
-    const [searchInput, setSearchInput] = useState(''); // State to store the search input
+    const [showForm, setShowForm] = useState(false); 
+    const [formType, setFormType] = useState(''); 
+    const [searchInput, setSearchInput] = useState(''); 
 
     const handleSearch = (e) => {
         const value = e.target.value;
         setSearchInput(value);
 
-        // Check if the input matches any card title
+
         if (value === 'Branches' || value === 'Manage your account') {
-            setFormType(value); // Set the form type based on the input
-            setShowForm(true); // Show the form
+            setFormType(value); 
+            setShowForm(true); 
         } else {
-            setShowForm(false); // Hide the form if input doesn't match
+            setShowForm(false); 
         }
     };
 
     const handleCardClick = (cardTitle) => {
-        console.log(`Card clicked: ${cardTitle}`);  // Log which card was clicked
-        setSearchInput(cardTitle); // Set search input to the clicked card title
+        console.log(`Card clicked: ${cardTitle}`);  
+        setSearchInput(cardTitle); 
         if (cardTitle === 'Branches' || cardTitle === 'Manage your account') {
-            console.log(`${cardTitle} card was clicked`); // Log specific card click
-            setFormType(cardTitle); // Set the form type based on the clicked card
-            setShowForm(true); // Show the form
+            console.log(`${cardTitle} card was clicked`); 
+            setFormType(cardTitle); 
+            setShowForm(true); 
         }
     };
 
